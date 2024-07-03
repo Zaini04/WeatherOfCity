@@ -16,7 +16,7 @@ let target = 'Lahore'
 
 const fetchResults = async(targetLocation) => {
 
-    let url = `http://api.weatherapi.com/v1/current.json?key=4c613ad52d8c49ebb3042635240107&q=${targetLocation}&aqi=no`
+    let url = `https://api.weatherapi.com/v1/current.json?key=4c613ad52d8c49ebb3042635240107&q=${targetLocation}&aqi=no`
    
     const res =  await fetch(url)
 
